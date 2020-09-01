@@ -13,32 +13,32 @@ function SocialMediaProfile() {
       <ul className="socialMedia__list">
         <li className="socialMedia__list__item">
           <a className="socialMedia__list__item__link" title="Facebook" href="https://www.facebook.com/lorenzonibrunno/" >
-            <FacebookIcon />
+            <FacebookIcon className="facebook-icon" />
           </a>
         </li>
         <li className="socialMedia__list__item">
           <a className="socialMedia__list__item__link" title="Instagram" href="https://www.instagram.com/brunnolorenzoni_/?hl=pt-br" >
-            <InstagramIcon />
+            <InstagramIcon className="instagram-icon"/>
           </a>
         </li>
         <li className="socialMedia__list__item">
           <a className="socialMedia__list__item__link" title="Linkedin" href="https://www.linkedin.com/in/brunnolorenzoni/" >
-            <LinkedInIcon />
+            <LinkedInIcon className="linkedin-icon"/>
           </a>
         </li>
         <li className="socialMedia__list__item">
           <a className="socialMedia__list__item__link" title="Twitter" href="https://twitter.com/brunnolorenzoni" >
-            <TwitterIcon />
+            <TwitterIcon className="twitter-icon"/>
           </a>
         </li>
         <li className="socialMedia__list__item">
           <a className="socialMedia__list__item__link" title="Github" href="https://github.com/brunnolorenzoni" >
-            <GitHubIcon />
+            <GitHubIcon className="github-icon" />
           </a>
         </li>
         <li className="socialMedia__list__item">
           <a className="socialMedia__list__item__link" title="Facebook Gaming" href="http://fb.gg/brnmeister" >
-            <SportsEsportsIcon />
+            <SportsEsportsIcon className="esports-icon" />
           </a>
         </li>
       </ul>

@@ -8,7 +8,7 @@ function RaitingsSection() {
   
   return (
     <section className="raitingsSection">
-      <h2>Habilidades</h2>
+      <h2 style={{"textAlign":"center"}}>Habilidades</h2>
       { skills.length ?
         <Grid container spacing={1}>
           {

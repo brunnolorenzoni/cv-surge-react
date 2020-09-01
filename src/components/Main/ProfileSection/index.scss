@@ -3,12 +3,13 @@
 .profileSection {
   padding: 8px;
   .headerProfile {
+    margin-bottom: 30px;
     &__avatar {
       margin: auto;
       width: 100% !important;
       height: auto !important;
       max-width: 300px;
-      border: 2px solid #e1e4e8;
+      border: 5px solid #6b6b6b;
       @media screen and (min-width: $screen-md) {
         margin: 0;
       }
@@ -19,11 +20,8 @@
         margin-top: 30px;
         text-align: left;
       }
-      &__name {
+      &__name, &__role, &__bio {
         margin: 5px 0px;
-      }
-      &__bio {
-        margin: 0;
       }
     }
   }
@@ -43,9 +41,33 @@
       & a,
       span {
         font-size: 14px;
+        line-height: 26px;
       }
       & svg {
         margin-right: 3px;
+        & path {
+          color: #aeaeae;
+        }
+      }
+      & .place-icon{
+        & path {
+          color: #d25238;
+        }
+      }
+      & .email-icon{
+        & path {
+          color: #747474;
+        }
+      }
+      & .whats-icon{
+        & path {
+          color: #075e54;
+        }
+      }
+      & .calendar-icon{
+        & path {
+          color: #aeaeae;
+        }
       }
     }
   }
@@ -96,6 +118,40 @@
           display: inline-block;
           & svg {
             font-size: 2rem;
+            color: #aeaeae;
+            & path {
+              color: #aeaeae;
+            }
+          }
+          & .facebook-icon {
+            & path {
+              color: #3b5998;
+            }
+          }
+          & .instagram-icon {
+            & path {
+              color: #c13584;
+            }
+          }
+          & .linkedin-icon {
+            & path {
+              color: #2867B2;
+            }
+          }
+          & .twitter-icon {
+            & path {
+              color: #1DA1F2;
+            }
+          }
+          & .github-icon {
+            & path {
+              color: #333;
+            }
+          }
+          & .esports-icon {
+            & path {
+              color: #6e5494;
+            }
           }
         }
       }

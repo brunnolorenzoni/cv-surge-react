@@ -1,43 +1,40 @@
 
 import React from 'react';
 
+import './index.scss';
+
 function ResumeSection() {
   return (
-    <div>
+    <section className="resumeSection">
+      <h2>Experiências</h2>
       <article>
-        <h2>Experiências</h2>
-        <div>
-          <h3>[2020 - 2017] GRUPO RBS PARTICIPAÇÃO S/A - ZERO HORA</h3>
+          <h3>[2020 - Atual] Unicred do Brasil - Zallpy (Outsorcing)</h3>
+          <p>Programador Front End</p>
+          <p>Tecnologias utilizadas: HTML, CSS, Javascript, JQuery, SQL;</p>
+      </article>
+      <article>
+          <h3>[2017 - 2020] GRUPO RBS PARTICIPAÇÃO S/A - ZERO HORA</h3>
           <p>Programador/Web Designer em Zero Hora/GaúchaZH</p>
-          <p>Setor: Editoria de Arte</p>
-          <p>Tecnologias utilizadas: Javascript, JQuery, PHP, NodeJs, MariaDB; Pacote Adobe;</p>
-          <h4>Responsabilidades</h4>
-          <ul>
-            <li>Desenvolvimento de páginas especiais;</li>
-            <li>Desenvolvimento de infografias interativas, como mapas, gráficos e buscadores;</li>
-            <li>Desenvolvimento ferramentas(calculadoras de previdência, finanças, mercado da bola, quiz, enquete; etc);</li>
-            <li>Desenvolvimento de ferramentas internas para abastecer especiais, infográficos e ferramentas;</li>
-            <li>Suporte a ferramentas e especiais antigos;</li>
-            <li>Desenvolvimento de APIs;</li>
-          </ul>
-          <div>
-            <h4>Alguns projetos e especiais premiados</h4>
-            <p>Raio X da Violência; Viagem pelo RS; Gauchão 100 anos; Missão Tóquio; Memória Eleitoral; Mapa da inovação; Calculadora da Previdência;</p>
-          </div>
-        </div>
+          <p>Tecnologias utilizadas: Javascript, JQuery, PHP, React, NodeJs, MariaDB; Pacote Adobe;</p>
       </article>
 
       <article>
         <h3>[2016 - 2017] GRUPO RBS PARTICIPAÇÃO S/A - Diário Gaúcho</h3>
         <p>Assistente em Diário Gaúcho - Programador</p>
-        <h4>Responsabilidades</h4>
-        <ul>
-          <li>Desenvolvimento de páginas especiais;</li>
-          <li>Desenvolvimento de infografias interativas, como mapas, gráficos e buscadores;</li>
-          <li>Desenvolvimento ferramentas(quiz, enquetes);</li>
-        </ul>
+        <p>Tecnologias utilizadas: Javascript, JQuery, HTML, CSS</p>
       </article>
-    </div>
+
+      <div className="div-hr"></div>
+
+      <h2>Educação</h2>
+      <article>
+          <h3>[2015 - 2021] Faculdade Senac POA</h3>
+          <p>Tecnólogo em Sistemas para Internet</p>
+      </article>
+
+      <div className="div-hr"></div>
+
+    </section>
   );
 }
 

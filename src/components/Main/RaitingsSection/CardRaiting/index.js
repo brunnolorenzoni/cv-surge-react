@@ -6,7 +6,6 @@ import './index.scss';
 
 function CardRaiting(props) {
     const { data } = props;
-    console.log(data)
     return (
         <Card className="card" variant="outlined">
             <h3 className="card__title">{data.title}</h3>
