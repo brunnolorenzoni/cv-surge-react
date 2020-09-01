@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Font-end",
+    "items": [
+      {
+        "title": "Javascript",
+        "raiting": 5
+      },
+      {
+        "title": "HTML",
+        "raiting": 5
+      },
+      {
+        "title": "CSS",
+        "raiting": 5
+      }
+    ]
+  },
+  {
+    "title": "Frameworks/Libs",
+    "items": [
+      {
+        "title": "ReactJS",
+        "raiting": 4
+      },
+      {
+        "title": "Express.js",
+        "raiting": 3
+      },
+      {
+        "title": "Slim PHP",
+        "raiting": 3
+      }
+    ]
+  },
+  {
+    "title": "Back-end",
+    "items": [
+      {
+        "title": "Node.js",
+        "raiting": 5
+      },
+      {
+        "title": "PHP",
+        "raiting": 5
+      },
+      {
+        "title": "Python",
+        "raiting": 5
+      }
+    ]
+  },
+  {
+    "title": "Database",
+    "items": [
+      {
+        "title": "MongoDB",
+        "raiting": 4
+      },
+      {
+        "title": "SQL",
+        "raiting": 3
+      }
+    ]
+  },
+  {
+    "title": "Adobe",
+    "items": [
+      {
+        "title": "Illustrator",
+        "raiting": 3
+      },
+      {
+        "title": "Photoshop",
+        "raiting": 4
+      },
+      {
+        "title": "Premier",
+        "raiting": 1
+      }
+    ]
+  },
+  {
+    "title": "Languages",
+    "items": [
+      {
+        "title": "Portuguese",
+        "raiting": 5
+      },
+      {
+        "title": "English",
+        "raiting": 5
+      },
+      {
+        "title": "Spanish",
+        "raiting": 5
+      }
+    ]
+  }
+]

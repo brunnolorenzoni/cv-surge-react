@@ -1,0 +1,14 @@
+@import "../../variables.scss";
+
+.mainWrapper {
+
+  display: block;
+  width: 100%;
+  max-width: $screen-lg;
+  margin: auto;
+  padding: 16px;
+  @media screen and (min-width: $screen-md) {
+    padding: 8px;
+  }
+}
+

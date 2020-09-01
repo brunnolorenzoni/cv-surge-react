@@ -1,0 +1,10 @@
+.footerWrapper {
+    margin-top: 30px;
+    padding: 8px;
+    background-color: #212121;
+    & p {
+        color: #cacaca;
+        text-align: center;
+        margin: 0;
+    }
+}

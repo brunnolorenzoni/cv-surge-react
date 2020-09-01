@@ -1,0 +1,32 @@
+.card {
+    text-align: center;
+    padding: 8px;
+    height: 100% !important;
+    &__title {
+        text-align: center;
+        margin: 0;
+    }
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        &__item{
+            font-weight: 700;
+            text-align: left;
+            margin-bottom: 10px;
+            &__scoreContainer {
+                padding: 3px 0px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                & svg {
+                    font-size: 1.2em;
+                }
+                & span {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

@@ -1,12 +1,12 @@
 import React from 'react';
+import './index.scss';
 
 function Footer() {
   return (
-    <>
-      <footer>
-        Desenvolvido com React, Material UI & Coffee
-      </footer>
-    </>
+    <footer className="footerWrapper">
+      <p>Desenvolvido com React, Material UI & Coffee</p>
+      <p>v.0.2</p>
+    </footer>
   );
 }
 

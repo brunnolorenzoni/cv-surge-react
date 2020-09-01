@@ -1,0 +1,104 @@
+@import "../../../variables.scss";
+
+.profileSection {
+  padding: 8px;
+  .headerProfile {
+    &__avatar {
+      margin: auto;
+      width: 100% !important;
+      height: auto !important;
+      max-width: 300px;
+      border: 2px solid #e1e4e8;
+      @media screen and (min-width: $screen-md) {
+        margin: 0;
+      }
+    }
+    &__description {
+      text-align: center;
+      @media screen and (min-width: $screen-md) {
+        margin-top: 30px;
+        text-align: left;
+      }
+      &__name {
+        margin: 5px 0px;
+      }
+      &__bio {
+        margin: 0;
+      }
+    }
+  }
+
+  .contact {
+    list-style-type: none;
+    padding: 0;
+    &__item {
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      flex-wrap: wrap;
+      margin: 5px 0px;
+      @media screen and (min-width: $screen-md) {
+        justify-content: flex-start;
+      }
+      & a,
+      span {
+        font-size: 14px;
+      }
+      & svg {
+        margin-right: 3px;
+      }
+    }
+  }
+
+  .personal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    @media screen and (min-width: $screen-md) {
+      text-align: left;
+    }
+    &__title {
+      margin: 0px 0px 5px 0px;
+    }
+    &__list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+    }
+    
+  }
+
+  .socialMedia {
+    text-align: center;
+    @media screen and (min-width: $screen-md) {
+      text-align: left;
+    }
+    &__title {
+      margin: 0px 0px 5px 0px;
+    }
+    .socialMedia__list {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      flex-wrap: wrap;
+      max-width: 260px;
+      margin: auto;
+      @media screen and (min-width: $screen-md) {
+        margin: 0;
+        justify-content: flex-start;
+      }
+      &__item {
+        display: inline-block;
+        &__link {
+          display: inline-block;
+          & svg {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
