@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footerWrapper">
       <p>Desenvolvido com React, Material UI & Coffee</p>
-      <p>v.0.2</p>
+      <p>Brunno Lorenzoni</p>
     </footer>
   );
 }

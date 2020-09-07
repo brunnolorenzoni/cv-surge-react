@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import ProfileSection from './ProfileSection'
 import ResumeSection from './ResumeSection'
 import RaitingsSection from './RaitingsSection'
@@ -6,23 +6,15 @@ import Grid from '@material-ui/core/Grid';
 
 import './index.scss';
 
-import data from '../../data/git.json'
+//import data from '../../data/git.json'
 
 function Main() {
 
-  const [repos, setRepos] = useState([]);
+  //const [repos, setRepos] = useState([]);
 
   // useEffect(()=> {
   //   fetch('https://api.github.com/users/brunnolorenzoni/repos?type=owner').then(response => response.json()).then(data => setRepos(data))
   // }, [])
-
-  useEffect(()=> {
-    setRepos(data)
-  }, [])
-
-  useEffect(()=> {
-    console.log(repos)
-  }, [repos])
 
   return (
     <div className="mainWrapper">

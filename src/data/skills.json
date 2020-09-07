@@ -25,7 +25,7 @@
       },
       {
         "title": "Express.js",
-        "raiting": 3
+        "raiting": 5
       },
       {
         "title": "Slim PHP",
@@ -42,11 +42,11 @@
       },
       {
         "title": "PHP",
-        "raiting": 5
+        "raiting": 3
       },
       {
         "title": "Python",
-        "raiting": 5
+        "raiting": 3
       }
     ]
   },
@@ -54,8 +54,8 @@
     "title": "Database",
     "items": [
       {
-        "title": "MongoDB",
-        "raiting": 4
+        "title": "NoSQL",
+        "raiting": 3
       },
       {
         "title": "SQL",
@@ -68,15 +68,11 @@
     "items": [
       {
         "title": "Illustrator",
-        "raiting": 3
-      },
-      {
-        "title": "Photoshop",
         "raiting": 4
       },
       {
-        "title": "Premier",
-        "raiting": 1
+        "title": "Photoshop",
+        "raiting": 3
       }
     ]
   },
@@ -89,11 +85,11 @@
       },
       {
         "title": "English",
-        "raiting": 5
+        "raiting": 3
       },
       {
         "title": "Spanish",
-        "raiting": 5
+        "raiting": 2
       }
     ]
   }

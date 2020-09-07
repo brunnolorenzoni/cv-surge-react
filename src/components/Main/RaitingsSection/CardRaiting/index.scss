@@ -21,6 +21,9 @@
                 width: 100%;
                 & svg {
                     font-size: 1.2em;
+                    & path {
+                        color: #ffbc14
+                    }
                 }
                 & span {
                     display: flex;

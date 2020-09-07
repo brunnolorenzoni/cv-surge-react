@@ -1,5 +1,5 @@
 import React from 'react';
-import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
+import StarRateIcon from '@material-ui/icons/StarRate';
 
 function ItemRaiting(props) {
     const { data } = props;
@@ -7,7 +7,7 @@ function ItemRaiting(props) {
 
     for (let i = 0; i < data.raiting; i++) {
         points.push(
-            <FiberManualRecordIcon key={`score-${i}-${Math.random(data.title).toString(36).substr(2)}`} />
+            <StarRateIcon key={`score-${i}-${Math.random(data.title).toString(36).substr(2)}`} />
         );
     }
 
